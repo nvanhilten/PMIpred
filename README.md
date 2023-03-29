@@ -10,7 +10,7 @@ This repo contains:
 - model/hyperparamter_optimization.py	code used for hyperparameter optimization
 - model/transformer.py			code used for final training
 
-- scripts/final_model/			final model and tokenizer
+- scripts/final_model/			final model and tokenizer (you should untar variables.tar.gz)
 - scripts/PMIpred_peptide.py		offline version of the peptide module in PMIpred
 - scripts/PMIpred_protein.py		offline version of the protein module in PMIpred
 
