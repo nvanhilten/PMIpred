@@ -1,0 +1,4 @@
+File name: 4ovu
+Window size: 15
+SASA Threshold: 0.8
+Membrane: Negatively charged membrane (e.g. POPC/POPG)
