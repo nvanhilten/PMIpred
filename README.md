@@ -1,5 +1,5 @@
 When using this code, please cite:
-Van Hilten, N.; Verwei, N.; Methorst, J.; Nase, C.; Bernatavicius, A.; Risselada, H.J., biorxiv (2023)
+Van Hilten, N.; Verwei, N.; Methorst, J.; Nase, C.; Bernatavicius, A.; Risselada, H.J., biorxiv (2023) DOI: 10.1101/2023.04.10.536211 
 
 This repo contains:
 - data/training_set.txt			sequence and MD-calculated ddF for 53,940 sequences in the training set
