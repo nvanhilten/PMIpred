@@ -4,7 +4,7 @@
 # This script is an offline version of the peptide module in PMIpred at https://pmipred.fkt.physik.tu-dortmund.de/curvature-sensing-peptide/
 #
 # When using this code, please cite:
-# Van Hilten, N.; Verwei, N.; Methorst, J.; Nase, C.; Bernatavicius, A.; Risselada, H.J., biorxiv (2023) DOI: 10.1101/2023.04.10.536211 
+# Van Hilten, N.; Verwei, N.; Methorst, J.; Nase, C.; Bernatavicius, A.; Risselada, H.J., Bioinformatics, 2024, 40(2) DOI: 0.1093/bioinformatics/btae069 
 #######
 
 import argparse
