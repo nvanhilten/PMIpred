@@ -2,7 +2,7 @@
 # This code was written by Nino Verwei, Niek van Hilten, and Andrius Bernatavicius at Leiden University, The Netherlands (29 March 2023)
 #
 # When using this code, please cite:
-# Van Hilten, N.; Verwei, N.; Methorst, J.; Nase, C.; Bernatavicius, A.; Risselada, H.J., biorxiv (2023)
+# Van Hilten, N.; Verwei, N.; Methorst, J.; Nase, C.; Bernatavicius, A.; Risselada, H.J., Bioinformatics, 2024, 40(2) DOI: 0.1093/bioinformatics/btae069 
 #######
 
 import tensorflow as tf
