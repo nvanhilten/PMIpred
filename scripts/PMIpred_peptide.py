@@ -229,6 +229,9 @@ def plot_probability(ddF, name, charge):
     fig.savefig(name)
 
 
+# get script path
+path = os.path.abspath(os.path.dirname(__file__))
+
 # check sequence
 status, message = check_sequence(args.seq)
 if not status:
@@ -239,7 +242,7 @@ if not status:
 z, H, uH = calc_descriptors(args.seq)
 
 # load transformer model
-model, tokenizer = gf.load_model("./final_model", "./final_model/tokenizer.pickle")
+model, tokenizer = gf.load_model(os.path.join(path, "final_model"), os.path.join(path, "final_model/tokenizer.pickle"))
 
 # predict ddF
 ddF = gf.predict_ddF(model, tokenizer, args.seq)

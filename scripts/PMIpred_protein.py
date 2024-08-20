@@ -461,6 +461,8 @@ def screening(outdir, charge, window, chain_dict, chain_list, sasa_threshold, mo
     return segments_data, residues_data, output_data
 
 
+# get script path
+path = os.path.abspath(os.path.dirname(__file__))
 
 # process input
 status = check_filename(args.pdb)
@@ -486,7 +488,7 @@ if len_list[-1] < args.window:
     sys.exit()
 
 # screening
-model, tokenizer = gf.load_model("./final_model", "./final_model/tokenizer.pickle")
+model, tokenizer = gf.load_model(os.path.join(path, "final_model"), os.path.join(path, "final_model/tokenizer.pickle"))
 print("Transformer model initiated...")
 segments_data, residues_data, output_data = screening(outdir, args.charge, args.window, chain_dict, chain_list, args.sasa_threshold, model, tokenizer, filename)   
 print("\nOutput written to:\t"+outdir)
