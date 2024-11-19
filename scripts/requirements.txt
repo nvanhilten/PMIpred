@@ -1,0 +1,6 @@
+matplotlib==3.6.2
+numpy==1.24.1
+modlamp==4.3.0
+keras==2.11.0
+tensorflow==2.11.0
+biopython==1.81
